@@ -33,12 +33,12 @@ const Home = () => {
         <motion.p variants={fadeIn('down', 0.15)} initial='hidden' animate='show' exit='hidden' className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-10"> An aspiring software developer with keen intrested in backend development and learning new technologies. Committed to crafting efficient solutions, staying updated, and making impactful contributions to software development.
         </motion.p>
         {/* btn */}
-        <div className="flex justify-center xl:hidden relative">
+        {/* <div className="flex justify-center xl:hidden relative">
           <ProjectsBtn/>
-        </div>
-        <div className="flex justify-center xl:hidden relative">
+        </div> */}
+        {/* <div className="flex justify-center xl:hidden relative">
           <ProjectsBtn/>
-        </div>
+        </div> */}
         <div className="flex space-x-4">
           <motion.div variants={fadeIn('down', 0.2)} initial='hidden' animate='show' exit='hidden' className=" z-10">
             <ProjectsBtn/>
