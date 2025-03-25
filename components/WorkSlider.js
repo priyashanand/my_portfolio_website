@@ -5,41 +5,36 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
-          proj_link:"google.com",
-        }
-        // {
-        //   title: 'title',
-        //   path: '/thumb4.jpg',
-        // },
-        // {
-        //   title: 'title',
-        //   path: '/thumb4.jpg',
-        // },
-        // {
-        //   title: 'title',
-        //   path: '/thumb4.jpg',
-        // },
+          path: '/Screenshot from 2025-03-25 15-33-57_resized.png',
+          proj_link:"https://github.com/priyashanand/Sorting.git",
+        },
       ],
     },
     {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/learning_path_resized.png',
+          proj_link:"https://github.com/priyashanand/Learning-Path-Generator.git",
         },
-        // {
-        //   title: 'title',
-        //   path: '/thumb1.jpg',
-        // },
-        // {
-        //   title: 'title',
-        //   path: '/thumb2.jpg',
-        // },
-        // {
-        //   title: 'title',
-        //   path: '/thumb3.jpg',
-        // },
+      ],
+    },
+    {
+      images: [
+        {
+          title: 'Chess',
+          path: '/chess_resized.png',
+          proj_link:"https://github.com/priyashanand/chess.git",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: 'omegle',
+          path: '/omegle_resized.png',
+          proj_link:"https://github.com/priyashanand/omegle-clone.git",
+        },
       ],
     },
   ],
@@ -94,19 +89,7 @@ const WorkSlider = () => {
 
                 {/* title */}
                 <div className='absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300'>
-                  <Link href='https://www.google.com' className='flex items-center gap-x-2 text-[13px] [0.2em]'>
-                    {/* title part 1 */}
-                    <div className='delay-100'>LIVE</div>
-                    {/* title part 2 */}
-                    <div className='translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150'>
-                      PROJECT
-                    </div>
-                    {/* icon */}
-                    <div className='text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200'>
-                      <BsArrowRight />
-                    </div>
-                  </Link>
-                  <Link href="https://www.google.com" className='flex items-center mt-5 gap-x-2 text-[13px] [0.2em]'>
+                  <Link href={image.proj_link} className='flex items-center mt-5 gap-x-2 text-[13px] [0.2em]'>
                     {/* title part 1 */}
                     <div className='delay-100'>GITHUB</div>
                     {/* title part 2 */}
