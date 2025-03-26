@@ -32,7 +32,7 @@ const workSlides = {
       images: [
         {
           title: 'omegle',
-          path: '/omegle_resized.png',
+          path: '/omegle_image.png',
           proj_link:"https://github.com/priyashanand/omegle-clone.git",
         },
       ],
