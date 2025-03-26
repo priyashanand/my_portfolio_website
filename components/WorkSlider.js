@@ -4,6 +4,15 @@ const workSlides = {
     {
       images: [
         {
+          title: 'omegle',
+          path: '/omegle_image.png',
+          proj_link:"https://github.com/priyashanand/omegle-clone.git",
+        },
+      ],
+    },
+    {
+      images: [
+        {
           title: 'title',
           path: '/Screenshot from 2025-03-25 15-33-57_resized.png',
           proj_link:"https://github.com/priyashanand/Sorting.git",
@@ -28,15 +37,7 @@ const workSlides = {
         },
       ],
     },
-    {
-      images: [
-        {
-          title: 'omegle',
-          path: '/omegle_image.png',
-          proj_link:"https://github.com/priyashanand/omegle-clone.git",
-        },
-      ],
-    },
+    
   ],
 };
 

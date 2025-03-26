@@ -13,6 +13,7 @@ import { SiExpress } from "react-icons/si";
 import { TbBrandThreejs } from "react-icons/tb";
 import { SiMysql } from "react-icons/si";
 import { DiLinux } from "react-icons/di";
+import {SiDocker, SiPostgresql, SiGo, SiC, SiCplusplus } from "react-icons/si";
 import {
   FaHtml5,
   FaCss3,
@@ -40,13 +41,12 @@ const aboutData = [
       {
         title: 'Programming Languages',
         // eslint-disable-next-line react/jsx-key
-        icons: [ <DiJsBadge />, <FaHtml5 />,<DiMongodb />,<DiNodejsSmall />, <FaCss3 />, <FaReact />, <TbBrandThreejs />, <SiExpress />
-],
+        icons: [ <DiJsBadge />, <FaHtml5 />, <DiNodejsSmall />, <FaCss3 />, <FaReact />, <TbBrandThreejs />, <SiExpress />, <SiGo />, <SiC />, <SiCplusplus />,<SiNextdotjs />],
       },
       {
         title: 'Tools and Utilities',
         // eslint-disable-next-line react/jsx-key
-        icons: [ <DiGit />,<DiGithub />,<SiMysql />,<DiLinux />],
+        icons: [ <DiGit />,<DiGithub />,<SiMysql />,<DiLinux />,<DiMongodb />,<SiDocker />,<SiPostgresql />],
       },
     ],
   },
@@ -67,10 +67,16 @@ const aboutData = [
     title: 'experience',
     info: [
       {
+        title: 'Xtrans Solutions',
+        subheading: 'Backend Developer Intern',
+        description: 'Implemented AWS Greengrass on Raspberry Pi for efficient edge device management and local data processing, developed a Node.js/Express backend to aggregate and analyze live IoT data streams in the cloud using MongoDB, and designed RESTful APIs for real-time data visualization and integration with an IoT analytics platform.',
+        stage: 'May 2024 - April 2025',
+      },
+      {
         title: 'Samsung Research',
         subheading: 'IOT Intern',
-        description: 'this is whayt jshfaiuef uashgfdias iuhsf iouahsdf nioahbsdf iusghbdf jhgbdf uih iulhbsdf ibsdf created socket programs for raspberry pi',
-        stage: 'May 2023 - present',
+        description: 'Gained expertise in IoT systems, including industry challenges and implementations, developed proficiency in networking protocols such as CoAP, MQTT, and HTTP, and honed skills in socket programming and database management. Conducted real-time wireless transmission using Raspberry Pi, Arduino Nano, ESP32, and Raspberry Pi Pico W.',
+        stage: 'Nov 2023 - Mar 2024',
       },
       {
         title: 'Placement cell Coordinator IIITDM Kurnool',
